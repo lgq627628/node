@@ -1,0 +1,16 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "1.分类   文件型：简单——access、(sqlite => app 内置数据库，对系统资源占用极少，localStorage其实也是拿它做的）（适合小型，比如手机端的通讯录，备份的话就是拷贝文件即可，适合单机存储少量数据）   关系型：(MySQL开元免费应用广)、Oracle（功能强大，使用场景广）   分布式：mongoDB（可以分布到多台服务器上）   NoSQL：memcache、redis（删除了多余的复杂查询，一般用来做缓存，秒杀活动也用它）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "co-mysql": "^1.0.0",
+    "mysql": "^2.17.1"
+  }
+}
